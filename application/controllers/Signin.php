@@ -1,8 +1,8 @@
 <?php 
-class User extends CI_Controller {
+class Signin extends CI_Controller {
     public function index(){   
         $this->load->view('templates/header');
-        $this->load->view('user/index');
+        $this->load->view('user/signin');
         $this->load->view('templates/footer');
     }
     public function register() {
